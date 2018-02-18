@@ -1,0 +1,22 @@
+<html>
+
+<head> </head>
+
+<body>
+    <div id="results">
+        <div>
+            <h1>Count:</h1>
+            <h2 id="counter">0</h2>
+            <canvas id="grabFrameCanvas"></canvas>
+            <button id="StartStop">Start</button>
+            <video autoplay></video>
+        </div>
+    </div>
+    <script src="grab-frame-take-photo.js"></script>
+    <script src="printLatestImage.js"></script>
+    <script>
+        document.querySelector("#StartStop").addEventListener("click", startStop);
+    </script>
+</body>
+
+</html>
